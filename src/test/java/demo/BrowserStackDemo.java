@@ -18,7 +18,7 @@ public class BrowserStackDemo {
  
   public static void main(String[] args) throws Exception {
 	  
-     DesiredCapabilities caps = new DesiredCapabilities();
+    DesiredCapabilities caps = new DesiredCapabilities();
     caps.setCapability("browserName", "iPhone");
     caps.setCapability("device", "iPhone 11");
     caps.setCapability("realMobile", "true");
