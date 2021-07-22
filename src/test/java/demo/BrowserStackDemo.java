@@ -22,7 +22,7 @@ public class BrowserStackDemo {
     caps.setCapability("browserName", "iPhone");
     caps.setCapability("device", "iPhone 11");
     caps.setCapability("realMobile", "true");
-    caps.setCapability("os_version", "14.0 ");
+    caps.setCapability("os_version", "14.0");
     caps.setCapability("name", "BStack-[Java] Sample Test"); // test name
     
     caps.setCapability("build", "BStack Build Number 1"); // CI/CD job or build name
